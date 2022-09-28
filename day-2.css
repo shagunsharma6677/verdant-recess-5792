@@ -1,0 +1,238 @@
+html 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+#layout-1{
+    background-color: #26C18D;
+}
+
+header {
+    height: 63px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 70%;
+    margin: auto;
+}
+
+
+.logo {
+    display: flex;
+    width: 300px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.logo> div >img {
+    width: 50px;
+    margin-right: 10px;
+}
+
+.logo>div {
+    font-size: 20px;
+}
+
+.menu {
+    display: flex;
+    font-size: 20px;
+    width: 720px;
+    color: white;
+}
+
+.menu>div {
+    margin: auto;
+}
+
+.button {
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.button > div{
+    width: 46%;
+}
+.button> div:nth-child(1){
+    color: white;
+    width: 30%;
+}
+
+.button> div:nth-child(2){
+    color: #26C18D;
+    background-color: white;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    border-radius: 50px 50px;
+}
+
+
+#intro-section {
+    display: flex;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap:100px
+}
+
+
+.intro-content {
+    height: fit-content;
+    width: 600px;
+    width: 630px;
+    color: white;
+}
+
+.intro-content>h1 {
+    font-size: 72px;
+    margin-bottom: 0px;
+}
+
+.intro-content>h1+p {
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.intro-content>h1+p+p {
+    font-size: 24px;
+}
+
+.intro-image>img {
+    width: 43%;
+}
+
+.icons{
+    width: 370px;
+    display: flex;
+    height: auto;
+    
+}
+.icons div{
+    width: auto;
+    max-height: 50px;
+    
+}
+.icons div > img{
+    width: 150px;
+    object-fit:fill;
+    margin-right: 30px;
+}
+
+
+form>button {
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    border: 0px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form>input {
+    display: block;
+    width: 50%;
+    height: 48px;
+    color: #6f737a;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    border-radius: 100px;
+    border: none;
+    background: #fff;
+}
+
+#company-list{
+    background-color: #fff;
+    width: 100%;
+}
+
+#company-list>div {
+    display: flex;
+    height: 100px;
+    padding: 15px;
+    justify-content: center;
+    width: 1450px;
+    margin: auto;
+
+}
+
+#company-list>div div {
+    width: 2500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#layout-2{
+    width: 1300px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:auto;
+    padding: 20px;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+
+#layout-2_heading{
+    text-align: center;
+    width: 1300px; 
+    margin: auto;  
+    padding: 30px;
+}
+
+#layout-2_heading > h2{
+    font-size: 48px;
+    text-align: start;
+    margin-bottom: 0px;
+}
+
+#layout-2_heading > p{
+    font-size: 24px;
+    text-align: start;
+}
+
+
+#layout-2 > div img{
+    width: 100%;
+}
+
+#layout-2 > div > h3{
+    font-size: 42px;
+    margin-bottom: 0px;
+}
+
+#layout-2 > div > p{
+    font-size: 18px;
+}
+
+#layout-2 > div > ul > li{
+    font-size: 18px;
+}
+
+#layout-2 > div:nth-child(2){
+    padding: 60px;
+}
+
+#layout-2 > div:nth-child(3){
+    padding: 60px;
+}
+
+#layout-2 > div:nth-child(6){
+    padding: 60px;
+}
+
+#layout-2 > div:nth-child(7){
+    padding: 60px;
+}
