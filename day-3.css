@@ -1,0 +1,67 @@
+#layout-2{
+    width: 90%;
+    height: auto;
+    border: 1px solid black;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    
+}
+#layout-2 > div{
+border: 1px solid red;
+padding: 10px;
+
+
+}
+#layout-2 > div>div{
+    margin: 20px;
+}
+.heading-2{
+    border: 1px solid blue;
+    text-align: center;
+}
+.manager-intro{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    border: 1px solid green;
+    
+}
+.manager-intro> div{
+    border: 1px solid black;
+}
+
+.phone-img{
+    grid-area: 1/2/span2/2;
+}
+
+.connect-app{
+    border: 1px solid blue;
+    text-align: center;
+    padding: 200px 250px;
+
+}
+.heading-3{
+    border: 1px solid red;
+    padding: 0px 260px;
+    text-align: center;
+}
+
+.carb_manager_by_number{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:6px;
+text-align: center;
+}
+
+.carb_manager_by_number > div{
+    border: 1px solid green;
+}
+
+.connect-App-Logos{
+    display: flex;
+    background-color: aquamarine;
+    border: 1px solid blue;
+    justify-content: space-evenly;
+}
+
