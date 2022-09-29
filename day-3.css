@@ -1,67 +1,131 @@
-#layout-2{
-    width: 90%;
-    height: auto;
-    border: 1px solid black;
-    padding: 20px;
-    max-width: 1000px;
-    margin: auto;
-    
+#layout-2 {
+  width: 90%;
+  height: auto;
+  max-width: 1300px;
+  margin: auto;
 }
-#layout-2 > div{
-border: 1px solid red;
-padding: 10px;
+#layout-2 > div {
+  padding: 10px;
+}
+.heading-2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.heading-2 > h2 {
+  font-size: 42px;
+  font-weight: 700;
 
-
+  line-height: 10%;
 }
-#layout-2 > div>div{
-    margin: 20px;
+.heading-2 > p {
+  font-size: 24px;
+  padding: 0px;
 }
-.heading-2{
-    border: 1px solid blue;
-    text-align: center;
+.manager-intro {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.manager-intro{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    
-    border: 1px solid green;
-    
+.manager-intro > div {
+  padding: 20px;
 }
-.manager-intro> div{
-    border: 1px solid black;
-}
-
-.phone-img{
-    grid-area: 1/2/span2/2;
+.manager-intro > div > h4 {
+  font-size: 21px;
+  margin-bottom: 0px;
 }
 
-.connect-app{
-    border: 1px solid blue;
-    text-align: center;
-    padding: 200px 250px;
-
-}
-.heading-3{
-    border: 1px solid red;
-    padding: 0px 260px;
-    text-align: center;
+.manager-intro > div > p {
+  font-size: 18px;
+  line-height: 24px;
 }
 
-.carb_manager_by_number{
-display: grid;
-grid-template-columns: repeat(4,1fr);
-gap:6px;
-text-align: center;
+.manager-intro > div:nth-child(1) > img {
+  width: 17%;
 }
 
-.carb_manager_by_number > div{
-    border: 1px solid green;
+.manager-intro > div:nth-child(3) > img {
+  width: 17%;
 }
 
-.connect-App-Logos{
-    display: flex;
-    background-color: aquamarine;
-    border: 1px solid blue;
-    justify-content: space-evenly;
+.manager-intro > div:nth-child(4) > img {
+  width: 17%;
+}
+.manager-intro > div:nth-child(5) > img {
+  width: 17%;
 }
 
+.phone-img {
+  grid-area: 1/2 / span 2/3;
+  padding: 30px;
+}
+.phone-img > img {
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 30px;
+}
+
+.connect-app {
+  text-align: center;
+  padding: 150px 250px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 50%;
+  margin-top: 100px;
+}
+.connect-app > h2 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  line-height: 15px;
+}
+
+.connect-app > p {
+  font-size: 18px;
+}
+.heading-3 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.heading-3 > h2 {
+  font-size: 42px;
+  padding: 0px;
+  line-height: 15px;
+}
+
+.heading-3 > p {
+  font-size: 18px;
+  padding: 0px 260px;
+}
+
+.carb_manager_by_number {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 50px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+.carb_manager_by_number > div > img + p {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 15px;
+}
+
+.carb_manager_by_number > div > p + p {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.carb_manager_by_number > div > img {
+  width: 17%;
+}
+
+.connect-App-Logos {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0px 250px;
+}
+
+.connect-App-Logos > div > img {
+  width: 150px;
+}
