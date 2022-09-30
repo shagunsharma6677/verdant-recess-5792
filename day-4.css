@@ -1,0 +1,166 @@
+#Layout-3 {
+  border: 1px solid black;
+  width: 1600px;
+  height: auto;
+  margin: auto;
+  padding: 30px;
+}
+#Layout-3 > div {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.testimony-main-section {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: #1ca677;
+  color: white;
+}
+
+.testimony-heading {
+  text-align: center;
+}
+.testimony-section {
+  border: 1px solid blue;
+  background-color: white;
+  /* padding: 0px 280px; */
+  color: black;
+  margin: auto;
+  display: flex;
+  padding: 20px;
+  /* padding: 0px 300px; */
+  width: 710px;
+}
+.testimony-section > div {
+  display: flex;
+  margin: auto;
+}
+.testimony-section > div:nth-child(1) {
+  width: 280px;
+  border: 1px solid red;
+  padding: 8px;
+}
+
+.testimony-section > div:nth-child(1) > p {
+  width: 50%;
+}
+
+.testimony-section > div:nth-child(1) > div + p {
+  width: 180px;
+  padding: 0px 30px;
+}
+.testimony-section > div:nth-child(2) {
+  width: 60%;
+  border: 1px solid blue;
+}
+
+.testimony-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.testimony-image {
+  border: 3px solid blue;
+}
+.testimony-image > img {
+  width: 49%;
+}
+
+.testimony-footer{
+    padding: 0px 400px;
+    font-size: 12px;
+}
+
+.testimony-connect{
+    display: flex;
+    border: 1px solid red;
+    width: 325px;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.testimony-connect > div{
+    margin: auto;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+}
+.testimony-connect > div > img{
+    width: 20px;
+}
+
+.keto-recipes{
+    border: 1px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    /* padding: 0px 300px; */
+    width: 800px;
+    margin: auto;
+}
+
+.recipes-heading{
+    border: 1px solid red;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recipes-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+
+    
+}
+
+.recipes-cards > div{
+    border: 1px solid blue;
+    margin: auto;
+    padding: 10px;
+}
+
+.recipes-cards > div > img{
+    width: 100%;
+}
+.recipes-cards > div > div{
+    padding: 0px 10px;
+}
+
+
+.keto-foods{
+    border: 3px solid black;
+    margin-top: 10px;
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+}
+
+.food-heading{
+    border: 1px solid blue;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.food-cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+
+    
+}
+.food-cards > div{
+    border: 1px solid red;
+    margin: auto;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.food-cards > div > img{
+    margin: auto;
+    padding: 50px 155px;
+    border: 1px solid black;
+    
+}
+.view-all-button{
+    text-align: center;
+}
