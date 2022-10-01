@@ -3,6 +3,7 @@
   height: auto;
   max-width: 1300px;
   margin: auto;
+  
 }
 #layout-2 > div {
   padding: 10px;
@@ -27,7 +28,16 @@
 }
 .manager-intro > div {
   padding: 20px;
+  border-radius: 70px;
 }
+
+.manager-intro > div:nth-child(3){
+padding-left: 60px;
+}
+
+.manager-intro > div:nth-child(5){
+  padding-left: 60px;
+  }
 .manager-intro > div > h4 {
   font-size: 21px;
   margin-bottom: 0px;
@@ -36,32 +46,33 @@
 .manager-intro > div > p {
   font-size: 18px;
   line-height: 24px;
+  padding-right: 100px;
 }
 
 .manager-intro > div:nth-child(1) > img {
-  width: 17%;
+  width: 15%;
 }
 
 .manager-intro > div:nth-child(3) > img {
-  width: 17%;
+  width: 15%;
 }
 
 .manager-intro > div:nth-child(4) > img {
-  width: 17%;
+  width: 15%;
 }
 .manager-intro > div:nth-child(5) > img {
-  width: 17%;
+  width: 15%;
 }
 
 .phone-img {
   grid-area: 1/2 / span 2/3;
   padding: 30px;
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/3f4107e63221d845c70ef8cf5b1a23001c871316/41a45/_nuxt/img/f089367.svg");
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .phone-img > img {
-  width: 100%;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  border-radius: 30px;
+  width: 98%;
+  border-radius: 47px;
 }
 
 .connect-app {
@@ -70,16 +81,18 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 50%;
-  margin-top: 100px;
+  margin-top: 333px;
+margin-bottom: 333px;
 }
 .connect-app > h2 {
   font-size: 42px;
-  margin-bottom: 10px;
+  margin-bottom: 33px;
   line-height: 15px;
 }
 
 .connect-app > p {
   font-size: 18px;
+  padding: 0px 100px;
 }
 .heading-3 {
   text-align: center;
@@ -95,7 +108,7 @@
 
 .heading-3 > p {
   font-size: 18px;
-  padding: 0px 260px;
+  padding: 0px 360px;
 }
 
 .carb_manager_by_number {
@@ -109,6 +122,7 @@
   font-size: 42px;
   font-weight: 700;
   line-height: 15px;
+  padding: 0px 100px;
 }
 
 .carb_manager_by_number > div > p + p {
@@ -125,7 +139,15 @@
   justify-content: space-evenly;
   padding: 0px 250px;
 }
+.connect-App-Logos:hover{
+  cursor: pointer;
+}
+
 
 .connect-App-Logos > div > img {
   width: 150px;
+}
+
+.stars > img{
+width: 13px;
 }
