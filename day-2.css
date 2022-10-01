@@ -2,6 +2,7 @@ html
 body {
     padding: 0px;
     margin: 0px;
+   
 }
 
 #layout-1{
@@ -76,8 +77,8 @@ header {
 
 #intro-section {
     display: flex;
-    height: 600px;
-    width: 100%;
+    height: 700px;
+    width: 115%;
     justify-content: center;
     align-items: center;
     gap:100px
@@ -106,7 +107,7 @@ header {
 }
 
 .intro-image>img {
-    width: 43%;
+    width: 50%;
 }
 
 .icons{
@@ -159,7 +160,7 @@ form>input {
 #company-list>div {
     display: flex;
     height: 100px;
-    padding: 15px;
+    padding: 20px;
     justify-content: center;
     width: 1450px;
     margin: auto;
@@ -183,7 +184,10 @@ form>input {
     gap: 50px;
     margin-top: 70px;
 }
-
+#layout-2_heading > p > span{
+    color: #26C18D;
+    font-weight: bold;
+}
 
 #layout-2_heading{
     text-align: center;
@@ -198,15 +202,63 @@ form>input {
     margin-bottom: 0px;
 }
 
+#layout-2 > div >ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 70px;
+    gap: 10px;
+}
+
 #layout-2_heading > p{
-    font-size: 24px;
+    font-size: 18px;
     text-align: start;
+    line-height: 24px;
+    font-weight: 400;
+}
+#layout-2 > div:nth-child(1){
+    background-color: #1AC48A;
+    padding: 15px;
 }
 
+#layout-2 > div:nth-child(4){
+    background-color: #FDA120;
+    padding: 15px;
+}
 
-#layout-2 > div img{
+#layout-2 > div:nth-child(5){
+    background-color: #F94642;
+    padding: 15px;
+}
+
+#layout-2 > div:nth-child(8){
+    background-color: #3177BB;
+    padding: 15px;
+}
+
+#layout-2 > div:nth-child(1) > img{
     width: 100%;
+    border-top-left-radius: 125px;
+    
 }
+
+#layout-2 > div:nth-child(4) > img{
+    width: 100%;
+    border-bottom-right-radius: 125px;
+    
+}
+
+#layout-2 > div:nth-child(5) > img{
+    width: 100%;
+    border-top-right-radius: 125px;
+    
+}
+
+#layout-2 > div:nth-child(8) > img{
+    width: 100%;
+    border-bottom-left-radius: 125px;
+    
+}
+
 
 #layout-2 > div > h3{
     font-size: 42px;
