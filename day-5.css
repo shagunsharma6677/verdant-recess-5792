@@ -1,0 +1,147 @@
+#Layout-4 {
+  border: 2px solid black;
+  padding: 10px;
+  width: 95%;
+  margin: auto;
+}
+
+#Layout-4 > div {
+  border: 1px solid red;
+  padding: 10px;
+}
+.get-started-keto {
+  border: 1px solid blue;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://d33wubrfki0l68.cloudfront.net/_nuxt/img/c4948281568412dbf871662f5e9bdcd3bcda025a/f9ffe37.jpg");
+  color: white;
+}
+.get-started-keto > p {
+  padding: 0px 200px;
+}
+
+.more-recipies {
+  border: 1px solid blue;
+  width: 560px;
+  margin: auto;
+}
+.more-recipies-heading {
+  text-align: center;
+}
+
+.more-recipies-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  margin: auto;
+}
+.more-recipies-content > div:nth-child(1) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8x37TVtZogRNVKz8V85DgQ4EO945opfJjw&usqp=CAU");
+  height: 140px;
+  width: 275px;
+}
+
+.more-recipies-content > div:nth-child(2) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLKz0qAYeVW3HIgsngRGHEws_mTCN9dcWdQA&usqp=CAU");
+  height: 140px;
+  width: 275px;
+}
+
+.more-recipies-content > div:nth-child(3) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpzVe-CXBtlqhidmMbrFwpdcJpBy1CZzNIVQ&usqp=CAU");
+  height: 140px;
+  width: 275px;
+}
+
+.more-recipies-content > div:nth-child(4) {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1wk9iQanHzv1B-_jCdSBpXBEhfZVNsyKjsg&usqp=CAU");
+  height: 140px;
+  width: 275px;
+}
+
+.more-recipies-content > div > div {
+  color: white;
+  padding-top: 80px;
+}
+.more_recipies-button {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-premium {
+  background-color: #26bf8b;
+  height: 275px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.get-premium > div {
+  background-color: red;
+}
+
+.footer-section {
+  width: 700px;
+  border: 1px solid blue;
+  margin: auto;
+}
+
+.carb-manager-main-logo {
+  height: 80px;
+  background-color: teal;
+  padding: 0px 300px;
+}
+
+.footer-navbar-1 {
+  background-color: aquamarine;
+  display: flex;
+  margin: auto;
+  height: 60px;
+}
+.footer-navbar-1 > div {
+  border: 1px solid black;
+  margin: auto;
+}
+
+.footer-navbar-2 {
+  background-color: rgb(44, 199, 103);
+  display: flex;
+  margin: auto;
+  height: 60px;
+}
+.footer-navbar-2 > div {
+  border: 1px solid black;
+  margin: auto;
+}
+
+.footer-connect-apps {
+  display: flex;
+  border: 1px solid red;
+  width: 325px;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.footer-connect-apps > div {
+  margin: auto;
+  background-color: aliceblue;
+  padding: 10px;
+  border-radius: 50%;
+}
+.footer-connect-apps > div > img {
+  width: 20px;
+}
+.footer-p1 {
+  text-align: center;
+}
+.footer-p2 {
+  text-align: center;
+}
