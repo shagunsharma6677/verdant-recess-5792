@@ -116,6 +116,11 @@
     border: 1px solid blue;
     margin: auto;
     padding: 10px;
+    width: 300px;
+}
+
+.recipes-card-1 > div > img{
+  width: 80%;
 }
 
 .recipes-cards > div > img{
@@ -123,6 +128,10 @@
 }
 .recipes-cards > div > div{
     padding: 0px 10px;
+}
+
+.recipes-card-1 > div{
+border: 1px solid green;
 }
 
 
