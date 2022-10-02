@@ -1,0 +1,354 @@
+#Layout-3 {
+  border: 1px solid black;
+  width: 100%;
+  height: max-content;
+  margin: auto;
+}
+#Layout-3 > div {
+  border: 1px solid red;
+  padding: 10px;
+}
+
+.testimony-main-section {
+  border: 2px solid black;
+  padding: 20px;
+  background-color: #1ca677;
+  color: white;
+}
+
+.testimony-heading {
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.testimony-heading > h2 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 900;
+  margin-bottom: 0px;
+  margin-bottom: -10px;
+}
+
+.testimony-heading > h2 + p {
+  font-size: 18px;
+  line-height: 24px;
+  line-height: 24px;
+}
+.testimony-section {
+  border: 1px solid blue;
+  background-color: white;
+  color: black;
+  margin: auto;
+  display: flex;
+  padding: 10px;
+  width: 900px;
+  height: 670px;
+  border-radius: 30px;
+}
+.testimony-section > div {
+  display: flex;
+  margin: auto;
+}
+.testimony-section > div:nth-child(1) {
+  width: 370px;
+  border: 1px solid red;
+}
+
+.testimony-section > div:nth-child(1) > p {
+  width: 50%;
+}
+
+.testimony-section > div:nth-child(1) > div + p {
+  width: 285px;
+  padding: 0px 65px;
+}
+.testimony-section > div:nth-child(2) {
+  width: 490px;
+  border: 1px solid blue;
+  height: 620px;
+}
+
+.testimony-content {
+  display: flex;
+  flex-direction: column;
+  height: 615px;
+}
+.testimony-content > a {
+  width: 240px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ca677;
+  color: white;
+  color: white;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 0px;
+  margin-left: 40px;
+  cursor: pointer;
+  transform: translateY(2px);
+}
+
+.testimony-content > h3 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 700;
+  margin-bottom: -10px;
+  margin-left: 22px;
+}
+
+.testimony-content > h3 + p {
+  margin-left: 22px;
+}
+.testimony-content > div {
+  border-radius: 40px;
+  height: 25px;
+  margin-left: 28px;
+  border: 1px solid black;
+  width: 200px;
+  padding-left: 15px;
+}
+
+.testimony-content > div + p {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.testimony-image {
+  border: 3px solid blue;
+}
+.testimony-image > img {
+  width: 50%;
+}
+
+.testimony-image > img:nth-child(1) {
+  border-radius: 24px 0 0 24px;
+}
+.testimony-image > img:nth-child(2) {
+  border-radius: 0 24px 24px 0;
+}
+
+.testimony-footer {
+  padding: 0px 240px;
+  font-size: 12px;
+  text-align: center;
+  width: 760px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.testimony-connect {
+  display: flex;
+  width: 400px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.testimony-connect > div {
+  margin: auto;
+  background-color: aliceblue;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.testimony-connect > div:hover{
+  cursor: pointer;
+}
+
+.testimony-connect > div > img {
+  width: 23px;
+}
+
+.keto-recipes {
+  border: 1px solid black;
+  margin-top: 130px;
+  padding: 10px;
+  width: 950px;
+  margin: auto;
+  margin-top: 150px;
+}
+
+.recipes-heading {
+  border: 1px solid red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.recipes-heading > h2 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 900;
+}
+
+.recipes-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+.recipes-cards > div {
+  border: 1px solid blue;
+  margin: auto;
+  padding: 10px;
+  width: 430px;
+  height: 410px;
+}
+
+.recipes-card-1 > div > img {
+  width: 80%;
+}
+
+.recipes-cards > div > div > img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+.recipes-cards > div > div {
+  padding: 0px 10px;
+  border: 1px solid red;
+  height: 200px;
+}
+
+.recipes-card-1 > div {
+  border: 1px solid green;
+}
+
+.keto-foods {
+  border: 3px solid black;
+  margin-top: 100px;
+  padding: 5px;
+  width: 845px;
+  margin: auto;
+  height: auto;
+  margin-top: 130px;
+}
+
+.food-heading {
+  border: 1px solid blue;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.food-heading > h2 {
+  font-size: 42px;
+  line-height: 48px;
+  font-weight: 900;
+}
+
+.food-cards > div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+.food-cards > div > div {
+  border: 1px solid red;
+  margin: auto;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: 275px;
+  width: 375px;
+}
+
+.food-cards-1 > div:nth-child(1) {
+  height: 170px;
+  border: 2px solid orange;
+  width: 100%;
+}
+.food-cards-1 > div > img {
+  margin: auto;
+  padding: 50px 155px;
+  border: 1px solid black;
+  /* width: 100%;
+object-fit: cover; */
+}
+.view-all-button {
+  text-align: center;
+}
+
+.testimony-image-2 > div:nth-child(1) {
+  background-image: url("https://images.prismic.io/cm-website/5e79ed5c-dc6f-458a-a07c-5299632cb90e_testimony_before_1%402x.jpg?auto=compress%2Cformat&w=0.5&auto=format&fit=max");
+  width: 50%;
+  height: 617px;
+  background-size: 313px;
+  font-size: 40px;
+}
+
+.testimony-image-2 > div:nth-child(2) {
+  background-image: url("https://images.prismic.io/cm-website/e3cdb9f6-27db-4716-93ff-926623b4b2f5_cassandraafter.jpg?auto=compress%2Cformat&w=0.5&auto=format&fit=max");
+  width: 50%;
+  height: 617px;
+  background-size: 313px;
+}
+.testimony-image-2 > div:nth-child(1) > p {
+  margin-top: 550px;
+  width: 109px;
+  text-align: center;
+  background-color: white;
+  border-radius: 100px;
+  font-size: 22px;
+  height: 45px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.testimony-image-2 > div:nth-child(2) > p {
+  margin-top: 550px;
+  width: 109px;
+  text-align: center;
+  background-color: white;
+  border-radius: 100px;
+  font-size: 22px;
+  height: 45px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  margin-left: 123px;
+}
+
+.recipies-star > img {
+  width: 5%;
+}
+
+.recipies-star-ratting {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sub-cats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-all-button {
+  width: 190px;
+  height: 47px;
+  border: 1px solid black;
+
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px 50px;
+  color: white;
+  background-color: #1bc98e;
+  margin-bottom: 80px;
+}
+
+.view-all-button > div:hover{
+  cursor: pointer;
+}
+
+/* .button> div:nth-child(2){
+  color: white;
+  background-color: #1CA677;
+  height: 100%;
+  width: 65%;
+  border-radius: 50px 50px;
+} */
