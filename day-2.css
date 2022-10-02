@@ -1,8 +1,7 @@
 html 
 body {
     padding: 0px;
-    margin: 0px;
-   
+    margin: 0px;  
 }
 
 #layout-1{
@@ -46,6 +45,24 @@ header {
 
 .menu>div {
     margin: auto;
+
+}
+
+.menu> div:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.button > div:nth-child(1):hover{
+    text-decoration: underline;
+    cursor: pointer;
+    
+}
+
+.button > div:nth-child(2):hover{
+    cursor: pointer;
+    transform: translateY(2px);
+    
 }
 
 .button {
@@ -74,7 +91,6 @@ header {
     border-radius: 50px 50px;
 }
 
-
 #intro-section {
     display: flex;
     height: 700px;
@@ -83,7 +99,6 @@ header {
     align-items: center;
     gap:100px
 }
-
 
 .intro-content {
     height: fit-content;
@@ -95,15 +110,21 @@ header {
 .intro-content>h1 {
     font-size: 72px;
     margin-bottom: 0px;
+    font-weight: 800;
+    line-height: 72px;
 }
 
 .intro-content>h1+p {
     font-size: 32px;
     margin-bottom: 0px;
+    line-height: 36px;
+    font-weight: 700;
 }
 
 .intro-content>h1+p+p {
     font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
 }
 
 .intro-image>img {
@@ -121,6 +142,10 @@ header {
     max-height: 50px;
     
 }
+
+.icons div:hover{
+    cursor: pointer;
+}
 .icons div > img{
     width: 150px;
     object-fit:fill;
@@ -129,20 +154,31 @@ header {
 
 
 form>button {
-    background-color: red;
+    background-color: rgb(221, 38, 38);
     color: white;
     border-radius: 30px;
     border: 0px;
+    width: 175px;
+}
+
+form>button:hover{
+    background-color: #F71611;
+    cursor: pointer;
 }
 
 form {
     display: flex;
     margin-bottom: 20px;
+    border: 1px solid black;
+    width: 530px;
 }
 
 form>input {
     display: block;
-    width: 50%;
+    
+    align-self: center;
+    
+    width: 360px;
     height: 48px;
     color: #6f737a;
     text-overflow: ellipsis;
@@ -151,7 +187,9 @@ form>input {
     border: none;
     background: #fff;
 }
-
+form > input:focus{
+    outline: 2px solid blue;
+}
 #company-list{
     background-color: #fff;
     width: 100%;
@@ -184,6 +222,7 @@ form>input {
     gap: 50px;
     margin-top: 70px;
 }
+
 #layout-2_heading > p > span{
     color: #26C18D;
     font-weight: bold;
@@ -233,14 +272,13 @@ form>input {
 #layout-2 > div:nth-child(8){
     background-color: #3177BB;
     padding: 15px;
-}
 
+}
 #layout-2 > div:nth-child(1) > img{
     width: 100%;
     border-top-left-radius: 125px;
     
 }
-
 #layout-2 > div:nth-child(4) > img{
     width: 100%;
     border-bottom-right-radius: 125px;
@@ -250,23 +288,22 @@ form>input {
 #layout-2 > div:nth-child(5) > img{
     width: 100%;
     border-top-right-radius: 125px;
-    
 }
 
 #layout-2 > div:nth-child(8) > img{
     width: 100%;
     border-bottom-left-radius: 125px;
-    
 }
-
-
 #layout-2 > div > h3{
     font-size: 42px;
     margin-bottom: 0px;
+    line-height: 48px;
+    font-weight: 300
 }
 
 #layout-2 > div > p{
     font-size: 18px;
+    padding-right: 90px;
 }
 
 #layout-2 > div > ul > li{
@@ -287,4 +324,13 @@ form>input {
 
 #layout-2 > div:nth-child(7){
     padding: 60px;
+}
+
+.paras-1{
+    margin: 50px;
+    margin-left: 0px;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-right: 10px;
 }
