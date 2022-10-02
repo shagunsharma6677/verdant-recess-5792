@@ -3,7 +3,6 @@
   height: auto;
   max-width: 1300px;
   margin: auto;
-  
 }
 #layout-2 > div {
   padding: 10px;
@@ -31,13 +30,13 @@
   border-radius: 70px;
 }
 
-.manager-intro > div:nth-child(3){
-padding-left: 60px;
+.manager-intro > div:nth-child(3) {
+  padding-left: 60px;
 }
 
-.manager-intro > div:nth-child(5){
+.manager-intro > div:nth-child(5) {
   padding-left: 60px;
-  }
+}
 .manager-intro > div > h4 {
   font-size: 21px;
   margin-bottom: 0px;
@@ -82,7 +81,7 @@ padding-left: 60px;
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
   border-radius: 50%;
   margin-top: 333px;
-margin-bottom: 333px;
+  margin-bottom: 333px;
 }
 .connect-app > h2 {
   font-size: 42px;
@@ -139,15 +138,14 @@ margin-bottom: 333px;
   justify-content: space-evenly;
   padding: 0px 250px;
 }
-.connect-App-Logos:hover{
+.connect-App-Logos:hover {
   cursor: pointer;
 }
-
 
 .connect-App-Logos > div > img {
   width: 150px;
 }
 
-.stars > img{
-width: 13px;
+.stars > img {
+  width: 13px;
 }

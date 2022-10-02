@@ -1,7 +1,3 @@
-html , body {
-  margin: 0px;
-  padding: 0px;
-}
 #Layout-4 {
   width: 100%;
   margin: auto;
@@ -22,10 +18,9 @@ html , body {
   line-height: 24px;
   font-weight: 500;
   width: 500px;
-
 }
 
-.get-started-keto > h2{
+.get-started-keto > h2 {
   font-size: 42px;
   line-height: 48px;
   font-weight: 900;
@@ -44,9 +39,9 @@ html , body {
   background-color: rgb(238, 30, 30);
 }
 
-.get-started-keto > div:hover{
+.get-started-keto > div:hover {
   cursor: pointer;
-  background-color: #F71611;
+  background-color: #f71611;
 }
 
 .more-recipies {
@@ -58,7 +53,7 @@ html , body {
   text-align: center;
 }
 
-.more-recipies-heading > h2{
+.more-recipies-heading > h2 {
   font-size: 42px;
   line-height: 48px;
   font-weight: 900;
@@ -74,16 +69,16 @@ html , body {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRT8x37TVtZogRNVKz8V85DgQ4EO945opfJjw&usqp=CAU");
   height: 210px;
   width: 450px;
-background-size: cover;
-border-radius: 20px;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .more-recipies-content > div:nth-child(2) {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLKz0qAYeVW3HIgsngRGHEws_mTCN9dcWdQA&usqp=CAU");
   height: 210px;
-width: 450px;
-background-size: cover;
-border-radius: 20px;
+  width: 450px;
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .more-recipies-content > div:nth-child(3) {
@@ -101,7 +96,6 @@ border-radius: 20px;
   width: 450px;
   background-size: cover;
   border-radius: 20px;
-  
 }
 
 .more-recipies-content > div > div {
@@ -111,7 +105,6 @@ border-radius: 20px;
   line-height: 36px;
   font-weight: 400;
   margin-left: 15px;
-
 }
 .more_recipies-button {
   height: 70px;
@@ -143,12 +136,12 @@ border-radius: 20px;
   color: white;
   margin-bottom: 60px;
 }
-.get-premium > div:hover{
+.get-premium > div:hover {
   cursor: pointer;
-  background-color: #F71611;
+  background-color: #f71611;
 }
 
-.get-premium > h2{
+.get-premium > h2 {
   font-size: 42px;
   line-height: 48px;
   font-weight: 900;
@@ -199,7 +192,7 @@ border-radius: 20px;
   border-radius: 50%;
 }
 
-.footer-connect-apps > div:hover{
+.footer-connect-apps > div:hover {
   cursor: pointer;
 }
 .footer-connect-apps > div > img {
@@ -226,12 +219,12 @@ border-radius: 20px;
   margin-bottom: 60px;
 }
 
-.more_recipies-button:hover{
+.more_recipies-button:hover {
   cursor: pointer;
-  background-color: #1CA677;
+  background-color: #1ca677;
 }
 
-.footer-section-logo{
+.footer-section-logo {
   display: flex;
   width: 300px;
   height: 50px;
@@ -242,16 +235,16 @@ border-radius: 20px;
   padding: 40px 0px;
   margin-bottom: 25px;
 }
-.footer-section-logo > div:hover{
+.footer-section-logo > div:hover {
   cursor: pointer;
 }
 
-.footer-section-logo> div >img {
+.footer-section-logo > div > img {
   width: 50px;
   margin-right: 10px;
 }
 
-.footer-section-logo>div {
+.footer-section-logo > div {
   font-size: 20px;
   color: black;
 }
