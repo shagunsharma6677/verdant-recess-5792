@@ -134,13 +134,16 @@
   padding: 0px 240px;
   font-size: 12px;
   text-align: center;
+  width: 760px;
+  margin: auto;
+  margin-top: 30px;
 }
 
 .testimony-connect {
   display: flex;
   width: 400px;
   margin: auto;
-  margin-top: 70px;
+  margin-top: 50px;
   margin-bottom: 70px;
 }
 .testimony-connect > div {
@@ -149,6 +152,11 @@
   padding: 20px;
   border-radius: 50%;
 }
+
+.testimony-connect > div:hover{
+  cursor: pointer;
+}
+
 .testimony-connect > div > img {
   width: 23px;
 }
@@ -157,7 +165,7 @@
   border: 1px solid black;
   margin-top: 130px;
   padding: 10px;
-  width: 930px;
+  width: 950px;
   margin: auto;
   margin-top: 150px;
 }
@@ -177,7 +185,7 @@
 .recipes-cards {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 22px;
 }
 
 .recipes-cards > div {
@@ -210,11 +218,11 @@
 .keto-foods {
   border: 3px solid black;
   margin-top: 100px;
-  padding: 10px;
-  width: 800px;
+  padding: 5px;
+  width: 845px;
   margin: auto;
   height: auto;
-  margin-top: 130px
+  margin-top: 130px;
 }
 
 .food-heading {
@@ -229,23 +237,32 @@
   font-weight: 900;
 }
 
-.food-cards {
+.food-cards > div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 15px;
 }
-.food-cards > div {
+.food-cards > div > div {
   border: 1px solid red;
   margin: auto;
   padding: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  height: 275px;
+  width: 375px;
 }
 
-.food-cards > div > img {
+.food-cards-1 > div:nth-child(1) {
+  height: 170px;
+  border: 2px solid orange;
+  width: 100%;
+}
+.food-cards-1 > div > img {
   margin: auto;
   padding: 50px 155px;
   border: 1px solid black;
+  /* width: 100%;
+object-fit: cover; */
 }
 .view-all-button {
   text-align: center;
@@ -302,3 +319,36 @@
   display: flex;
   justify-content: space-between;
 }
+
+.sub-cats {
+  display: flex;
+  justify-content: space-between;
+}
+
+.view-all-button {
+  width: 190px;
+  height: 47px;
+  border: 1px solid black;
+
+  margin: auto;
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px 50px;
+  color: white;
+  background-color: #1bc98e;
+  margin-bottom: 80px;
+}
+
+.view-all-button > div:hover{
+  cursor: pointer;
+}
+
+/* .button> div:nth-child(2){
+  color: white;
+  background-color: #1CA677;
+  height: 100%;
+  width: 65%;
+  border-radius: 50px 50px;
+} */
